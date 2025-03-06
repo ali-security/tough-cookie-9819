@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-- stable
 - "v10.*"
-- "v8.*"
-- "v6.*"
 - "v4.*"
-- "v0.12.*"
 - "v0.10.*"
+- '10'
+- "v6.*"
+- "v0.12.*"
+- "v8.*"
 matrix:
   fast_finish: true
+dist: trusty
